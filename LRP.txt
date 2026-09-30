@@ -1,0 +1,387 @@
+MASTER PROMPT — JAVA OOP CLASS TEST CODE SOLVER
+================================================
+
+I will upload my Java OOP class-test question paper as an image/PDF.
+
+Your job is to read the COMPLETE question paper carefully and solve EVERY programming question from it.
+
+IMPORTANT:
+I am preparing for a Java OOP class test, so write code that is EASY TO WRITE, EASY TO REMEMBER, and EASY TO EXPLAIN in viva.
+
+================================================
+1. JAVA LEVEL / RESTRICTIONS
+================================================
+
+Use ONLY basic Java.
+
+Allowed:
+- Scanner
+- Variables
+- Primitive data types
+- if / else
+- switch
+- for / while / do-while
+- Arrays
+- 1-D arrays
+- 2-D arrays
+- Methods
+- Static and non-static methods
+- Classes and objects
+- Constructors
+- Constructor overloading
+- this
+- super
+- extends
+- implements
+- Interface
+- Abstract class
+- Method overloading
+- Method overriding
+- Encapsulation
+- Access modifiers
+- final
+- String
+- Basic String methods
+- java.util.Arrays when required
+
+DO NOT use unless the question specifically requires it:
+- ArrayList
+- HashMap
+- HashSet
+- Collections framework
+- Streams
+- Lambda expressions
+- Generics
+- Advanced exception handling
+- File handling
+- Multithreading
+- JDBC
+- GUI
+- Advanced Java
+- Design patterns
+- Complex libraries
+- Unnecessary packages
+
+Keep the code as SIMPLE as possible.
+
+================================================
+2. VERY IMPORTANT — EXAM STYLE
+================================================
+
+Do NOT try to make the code production-level.
+
+Write code that a college student can realistically write in a class test.
+
+Prefer:
+- simple variable names
+- simple logic
+- simple loops
+- simple if-else
+- simple switch
+- simple classes
+- simple constructors
+
+Do not add unnecessary validation or complicated logic unless the question requires it.
+
+================================================
+3. READ THE QUESTION PAPER
+================================================
+
+First identify:
+
+Q1
+Q2
+Q3
+etc.
+
+For EVERY programming question, provide:
+
+QUESTION:
+<short version of the question>
+
+FILE NAME:
+<exact .java filename>
+
+PUBLIC CLASS NAME:
+<exact public class name>
+
+CODE:
+<complete Java code>
+
+================================================
+4. FILE NAME RULE
+================================================
+
+IMPORTANT:
+
+If the code contains:
+
+public class StudentGrade
+
+then the file name MUST be:
+
+StudentGrade.java
+
+Always make:
+
+FILE NAME = PUBLIC CLASS NAME + ".java"
+
+Do not create filename/class-name mismatch.
+
+================================================
+5. CODE FORMAT
+================================================
+
+The code must be COMPLETE and directly executable.
+
+Every program should normally contain:
+
+import statements if required
+
+class definitions
+
+methods
+
+public class
+
+main method
+
+Do NOT give incomplete snippets.
+
+Do NOT write:
+
+"complete the code yourself"
+
+"add your own main method"
+
+"remaining code..."
+
+Give the FULL code.
+
+================================================
+6. NOTEPAD FORMAT — VERY IMPORTANT
+================================================
+
+I want the answer in a format that I can directly copy into Notepad.
+
+Use this exact structure:
+
+========================================
+QUESTION 1
+========================================
+
+FILE NAME:
+StudentGrade.java
+
+CLASS NAME:
+StudentGrade
+
+CODE:
+
+import java.util.Scanner;
+
+public class StudentGrade {
+
+    public static void main(String[] args) {
+
+        // complete code
+
+    }
+}
+
+
+========================================
+QUESTION 2
+========================================
+
+FILE NAME:
+ATM.java
+
+CLASS NAME:
+ATM
+
+CODE:
+
+<complete code>
+
+
+Continue this format for ALL questions.
+
+================================================
+7. NO EXTRA EXPLANATION INSIDE CODE
+================================================
+
+Keep code clean.
+
+Only add comments if they help understand the code.
+
+Do NOT put long explanations inside the code.
+
+================================================
+8. OOP QUESTIONS
+================================================
+
+If the question requires OOP, use the OOP concept explicitly.
+
+For example:
+
+Inheritance:
+class Child extends Parent
+
+Interface:
+class Car implements Vehicle
+
+Constructor:
+Student() { }
+
+this:
+this.name = name;
+
+super:
+super(name);
+
+Overriding:
+@Override
+
+Encapsulation:
+private variables + methods
+
+Abstract class:
+abstract class Vehicle
+
+Do not use an advanced alternative if a simple OOP solution is possible.
+
+================================================
+9. IF MULTIPLE CLASSES ARE REQUIRED
+================================================
+
+Use multiple classes in the SAME code block if needed.
+
+Example:
+
+class Employee {
+    ...
+}
+
+class PermanentEmployee extends Employee {
+    ...
+}
+
+class ContractEmployee extends Employee {
+    ...
+}
+
+public class EmployeeDemo {
+    public static void main(String[] args) {
+        ...
+    }
+}
+
+Only ONE class should normally be public.
+
+Make the public class name match the filename.
+
+================================================
+10. IF THE QUESTION PAPER PROVIDES SAMPLE INPUT/OUTPUT
+================================================
+
+Follow the sample input/output as closely as possible.
+
+Do not unnecessarily change the output format.
+
+If no sample output is provided, create a simple appropriate output.
+
+================================================
+11. IF QUESTION IS AMBIGUOUS
+================================================
+
+Do NOT ask me unnecessary questions during the exam.
+
+Make the most reasonable interpretation and solve it.
+
+If there are two possible interpretations, choose the simpler one that satisfies the question.
+
+================================================
+12. IMPORTANT EXAM REQUIREMENT
+================================================
+
+After all programs, give:
+
+========================================
+FILE NAME LIST
+========================================
+
+1. StudentGrade.java
+   Class: StudentGrade
+
+2. ATM.java
+   Class: ATM
+
+3. ...
+
+This allows me to quickly create the files in IntelliJ.
+
+================================================
+13. QUICK REVISION SECTION
+================================================
+
+At the VERY END, give a short:
+
+"LAST-MINUTE OOP REVISION"
+
+Only include the concepts actually used in the question paper.
+
+Example:
+
+this → current object
+super → parent class
+extends → inheritance
+implements → interface
+@Override → method overriding
+final → cannot be changed
+private → encapsulation
+
+Keep this section VERY SHORT.
+
+================================================
+14. MOST IMPORTANT RULE
+================================================
+
+Do NOT over-engineer anything.
+
+My priority is:
+
+1. Correct answer
+2. Basic Java
+3. Easy to understand
+4. Easy to write in exam
+5. Easy to remember
+6. Direct copy-paste into Notepad
+7. Correct filename and class name
+
+================================================
+FINAL INSTRUCTION
+================================================
+
+Now carefully read the uploaded question paper.
+
+Solve ALL programming questions.
+
+Give me COMPLETE Java programs.
+
+Use BASIC JAVA ONLY.
+
+Give every program separately with:
+
+QUESTION
+FILE NAME
+CLASS NAME
+COMPLETE CODE
+
+At the end give:
+
+FILE NAME LIST
++
+SHORT LAST-MINUTE OOP REVISION
+
+Do not skip any programming question from the paper.
